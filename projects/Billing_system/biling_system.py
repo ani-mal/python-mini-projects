@@ -370,7 +370,7 @@ class Bill_App:
                 END, f"\n Sanitizer\t\t{self.sanitizer.get()}\t\t{self.m_s_p}")
         if self.mask.get() != 0:
             self.txtarea.insert(
-                END, f"\n Sanitizer\t\t{self.mask.get()}\t\t{self.m_m_p}")
+                END, f"\n Mask\t\t{self.mask.get()}\t\t{self.m_m_p}")
         if self.hand_gloves.get() != 0:
             self.txtarea.insert(
                 END, f"\n Hand Gloves\t\t{self.hand_gloves.get()}\t\t{self.m_h_g_p}")
