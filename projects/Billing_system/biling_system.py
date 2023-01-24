@@ -389,19 +389,19 @@ class Bill_App:
                 END, f"\n Rice\t\t{self.rice.get()}\t\t{self.g_r_p}")
         if self.food_oil.get() != 0:
             self.txtarea.insert(
-                END, f"\n Food Oil\t\t{self.food_oil.get()}\t\t{self.g_f_o_p}")
+                END, f"\n Olive Oil\t\t{self.food_oil.get()}\t\t{self.g_f_o_p}")
         if self.wheat.get() != 0:
             self.txtarea.insert(
-                END, f"\n Wheat\t\t{self.wheat.get()}\t\t{self.g_w_p}")
+                END, f"\n Whole Wheat\t\t{self.wheat.get()}\t\t{self.g_w_p}")
         if self.daal.get() != 0:
             self.txtarea.insert(
-                END, f"\n Daal\t\t{self.daal.get()}\t\t{self.g_d_p}")
+                END, f"\n Lentil\t\t{self.daal.get()}\t\t{self.g_d_p}")
         if self.flour.get() != 0:
             self.txtarea.insert(
                 END, f"\n Flour\t\t{self.flour.get()}\t\t{self.g_f_p}")
         if self.maggi.get() != 0:
             self.txtarea.insert(
-                END, f"\n Maggi\t\t{self.maggi.get()}\t\t{self.g_m_p}")
+                END, f"\n Seassoning\t\t{self.maggi.get()}\t\t{self.g_m_p}")
         # ================ColdDrinks==========================
         if self.sprite.get() != 0:
             self.txtarea.insert(
